@@ -1,0 +1,56 @@
+/* Achievements.css */
+
+.achievements {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    font-family: 'Arial, sans-serif'; /* Nice font */
+    text-align: center;
+}
+
+.achievements h2 {
+    font-size: 28px;
+    color: #333; /* Dark text color */
+    border-bottom: 2px solid #007bff; /* Blue underline */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.achievements ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.achievements li {
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.achievements li img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.achievements li p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555; /* Grey text color */
+}
+
+.achievements li:hover img {
+    transform: scale(1.1); /* Scale up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}

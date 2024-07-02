@@ -1,0 +1,73 @@
+.teachers {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Adjust as needed */
+    max-width: 1000px; /* Maximum width for the teachers section */
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+}
+
+.teachers h2 {
+    font-size: 28px;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+    font-family: 'Arial, sans-serif'; /* Nice font */
+}
+
+.principal {
+    background-color: #fff; /* White background for the principal section */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the principal section */
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.principal img {
+    width: 150px; /* Fixed width for the principal's image */
+    height: 150px; /* Fixed height for the principal's image */
+    border-radius: 50%; /* Round image */
+    margin-bottom: 10px;
+}
+
+.principal p {
+    font-size: 18px;
+    color: #555; /* Grey text color */
+    margin: 5px 0;
+    font-family: 'Arial, sans-serif'; /* Nice font */
+}
+
+.teachers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with minimum width of 200px */
+    grid-gap: 20px; /* Gap between grid items */
+}
+
+.teacher {
+    background-color: #fff; /* White background for each teacher card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for each teacher card */
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+.teacher img {
+    width: 100%; /* Ensure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Round images */
+    margin-bottom: 10px;
+}
+
+.teacher p {
+    font-size: 18px;
+    color: #555; /* Grey text color */
+    margin: 0;
+    font-family: 'Arial, sans-serif'; /* Nice font */
+}
+
+.teacher:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}

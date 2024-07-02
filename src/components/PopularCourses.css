@@ -1,0 +1,46 @@
+/* PopularCourses.css */
+
+.popular-courses {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    font-family: 'Arial, sans-serif'; /* Nice font */
+    text-align: center;
+}
+
+.popular-courses h2 {
+    font-size: 28px;
+    color: #333; /* Dark text color */
+    border-bottom: 2px solid #007bff; /* Blue underline */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.popular-courses ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.popular-courses li {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effect */
+    cursor: pointer;
+}
+
+.popular-courses li:hover {
+    transform: translateY(-5px); /* Move up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+    background: grey;
+}

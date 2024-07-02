@@ -1,0 +1,37 @@
+/* Home.css */
+
+.home {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin: 20px;
+    font-family: 'Arial, sans-serif'; /* Nice font */
+}
+
+.home h1 {
+    font-size: 36px;
+    color: #333; /* Dark text color */
+}
+
+.home p {
+    font-size: 18px;
+    color: #666; /* Grey text color */
+    margin: 20px 0;
+}
+
+.learn-more {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Primary color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.learn-more:hover {
+    background-color: #0056b3; /* Darker primary color on hover */
+}

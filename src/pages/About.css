@@ -1,0 +1,22 @@
+/* About.css */
+
+.about {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff0f8; /* Light pink background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin: 20px;
+    font-family: 'Arial, sans-serif'; /* Nice font */
+}
+
+.about h1 {
+    font-size: 36px;
+    color: #333; /* Dark text color */
+}
+
+.about p {
+    font-size: 18px;
+    color: #666; /* Grey text color */
+    margin: 20px 0;
+}
